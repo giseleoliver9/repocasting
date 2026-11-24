@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repocasting"
+version = "0.1.0"
+description = "Deterministic offline specialist routing for development tasks"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+repocasting = "repocasting.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

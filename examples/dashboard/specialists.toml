@@ -1,0 +1,18 @@
+# Cenário fictício: painel de entregas de uma loja imaginária.
+[[specialists]]
+id = "dev"
+name = "Dev"
+instruction = "Proponha a menor mudança de código para o comportamento descrito."
+keywords = { ordenacao = 5, ordenar = 5, implementar = 3, exportar = 2, csv = 2 }
+
+[[specialists]]
+id = "qa"
+name = "QA"
+instruction = "Defina casos de teste com entradas fictícias, critérios de aceite e checagens de regressão."
+keywords = { teste = 5, regressao = 5, validar = 4, ordenacao = 2 }
+
+[[specialists]]
+id = "security"
+name = "Security"
+instruction = "Descreva a matriz de acesso e como verificar as permissões no backend com usuários fictícios."
+keywords = { permissao = 5, acesso = 4, admin = 4, exportar = 3, csv = 2 }
